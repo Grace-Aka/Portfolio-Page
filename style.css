@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+
+body{
+    background-color:indianred;
+}
+
+.name{
+    max-width: fit-content;
+    height: 2.5rem;
+    color: black;
+    font-weight: 200;
+    border: 5px dotted floralwhite;
+}
+
+.container{
+    align-items: center;
+}
+nav{
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1.4rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-weight:bold;
+}
+
+ul li a:hover{
+    color:black;
+}
+
+.container2{
+    position:absolute;
+    top: 10rem;
+    left: 5rem;
+    width: 100%;
+    margin-top: 12rem;
+    padding: 10px 0px;
+}
+
+h1{
+    font-size: 4rem;
+    color:floralwhite;
+    margin: 20px 0px 20px;
+}
+
+h3{
+    color: black;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border: 3px dotted black;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    transform: translateY(15%);
+}
+
+.btn2{
+    border: 3px dotted black;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.btn2:hover{
+    transform: translateY(15%);
+}
+
+.About img {
+    border-radius: 25px;
+    border: 3px dotted black;
+    width: 18rem;
+    height: 22rem;
+    margin-top: 8rem;
+    margin-left: 55rem;
+}
+
